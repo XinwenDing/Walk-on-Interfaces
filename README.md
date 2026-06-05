@@ -4,9 +4,9 @@ This repository contains author's implementation for the 2026 JCP paper ["Walk-o
 ## Overview
 We study numerical methods for elliptic PDEs of the form
 
-$$
+```math
 -\nabla \cdot (\sigma(x) \nabla u(x)) = 0, \quad x \in \Omega
-$$
+```
 with discontinuous coefficienet $\sigma(x)$. A Monte Carlo method is propsed and developed here. 
 
 This repository includes:
